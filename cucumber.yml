@@ -1,0 +1,3 @@
+default: URL=https://www.linkedin.com/login cucumber
+homolog: URL=https://homologacao.linkedin.com/login cucumber
+prod: URL=https://www.linkedin.com/login cucumber
