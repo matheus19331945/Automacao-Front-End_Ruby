@@ -4,7 +4,7 @@ class HomePage < SitePrism::Page
     element :navBarHome, :xpath, '//span[@title="Início"]'
     element :myIcon, :xpath, '//span[contains(@class, "t-12") and contains(@class, "global-nav__primary-link-text") and text()="Eu"]
 '
-//comentario teste
+//comentario teste1
     def checkLoginSuccessful
         expect(userName.text).to eql "Matheus Santos"
         expect(navBarHome.text).to eql "Início"
